@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment16</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        button {
+            width: 77px;
+            height: 70px;
+            background-color: rgb(64, 62, 62);
+            color: white;
+            border: 2px solid white;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 10px;
+
+        }
+
+        button:hover {
+            background: black;
+        }
+
+        input {
+
+            padding-bottom: 40px;
+        }
+
+        .calcu {
+            width: 350px;
+            background-color: burlywood;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    </div>
+    <div class="container mt-5 border border-dark calcu text-center">
+        <div class="text-dark fs-5 font-weight-bold">Calculator</div>
+        <div><input type="text" class="fs-3" id="demo1"></div>
+        <div class="row text-center">
+            <div class="col-12">
+                <button onclick="num('%')">%</button>
+                <button class="bg-danger" onclick="errase1()">c</button>
+                <button onclick="delet()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                <button onclick="num('/')">/</button>
+
+            </div>
+            <div class="col-12">
+                <button onclick="num(9)">9</button>
+                <button onclick="num(8)">8</button>
+                <button onclick="num(7)">7</button>
+                <button onclick="num('*')">x</button>
+
+            </div>
+            <div class="col-12">
+                <button onclick="num(6)">6</button>
+                <button onclick="num(5)">5</button>
+                <button onclick="num(4)">4</button>
+                <button onclick="num('-')">-</button>
+
+
+
+            </div>
+            <div class="col-12">
+                <button onclick="num(3)">3</button>
+                <button onclick="num(2)">2</button>
+                <button onclick="num(1)">1</button>
+                <button onclick="num('+')">+</button>
+            </div>
+
+            <div class="col-12">
+                <button onclick="num(0)">0</button>
+                <button onclick="num('.')">.</button>
+
+                <button onclick="equal()">=</button>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assignment16.js"></script>
+</body>
+
+</html>
